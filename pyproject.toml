@@ -1,0 +1,19 @@
+[project]
+name = "cs-ml-forecasting"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Romain Florentz",email = "romain@heaviside.fr"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas (>=2.3.0,<3.0.0)",
+    "streamlit (>=1.45.1,<2.0.0)",
+    "altair (>=5.5.0,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
